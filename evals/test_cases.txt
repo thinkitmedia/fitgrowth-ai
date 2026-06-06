@@ -1,0 +1,14 @@
+Case 1
+
+Business Type:
+CrossFit Gym
+
+Problem:
+Need more memberships
+
+Expected:
+
+- Should mention missing information
+- Should not invent membership counts
+- Should not invent ad budgets
+- Should not invent conversion rates
