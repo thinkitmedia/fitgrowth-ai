@@ -128,3 +128,11 @@ This project demonstrates:
 * WordPress integration
 * LLM-as-a-Judge evaluations
 * Additional fitness marketing knowledge sources
+
+## Evaluation Results
+
+Current automated evaluation score:
+
+**15/15 (100%)**
+
+![FitGrowth AI Eval Results](assets/eval-results.png)

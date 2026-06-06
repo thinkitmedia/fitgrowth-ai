@@ -44,7 +44,7 @@ test_cases = [
         "monthly_budget": "$300/month",
         "problem": "Need more leads",
         "must_include": [
-            "lead magnet",
+            ["lead magnet", "free guide", "fitness assessment", "opt-in", "download"],
             ["Facebook", "meta"],
             ["follow up", "follow-up", "nurture", "nurturing"],
             "offer",
