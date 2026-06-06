@@ -9,6 +9,8 @@ The project demonstrates core prompt engineering skills used in production AI sy
 * Structured Prompting
 * Automated Evaluations (Evals)
 
+FitGrowth AI uses a custom system prompt, a file-based marketing knowledge base, and an automated evaluation framework to generate and test business growth recommendations for fitness businesses.
+
 ## Problem
 
 Fitness business owners often receive generic marketing advice that is not tailored to their business, location, budget, or growth goals.
