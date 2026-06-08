@@ -48,7 +48,7 @@ test_cases = [
             ["Facebook", "meta"],
             ["follow up", "follow-up", "nurture", "nurturing"],
             "offer",
-            "local"
+            ["local", "local seo", "google business profile", "google business", "google maps", "nearby", "local search"]
         ]
     },
     {
@@ -64,6 +64,140 @@ test_cases = [
             "community",
             "goal",
             "referral"
+        ]
+    },
+    {
+        "name": "Martial arts school needs students",
+        "business_type": "Martial Arts School",
+        "location": "Frisco",
+        "current_members": "60",
+        "monthly_budget": "$600/month",
+        "problem": "Need more student enrollments",
+        "must_include": [
+            "Google Business Profile",
+            "referral",
+            ["Facebook", "meta"],
+            "trial",
+            "lead"
+    ]
+    },
+    {
+        "name": "Pilates studio needs leads",
+        "business_type": "Pilates Studio",
+        "location": "Plano",
+        "current_members": "40",
+        "monthly_budget": "$400/month",
+        "problem": "Need more leads",
+        "must_include": [
+            "lead",
+            ["lead magnet", "free guide", "assessment"],
+            ["local", "local seo", "google business profile", "google business", "google maps", "nearby", "local search"],
+            "Google Business Profile",
+            "offer"
+        ]
+    },
+    {
+        "name": "Nutrition coach needs clients",
+        "business_type": "Nutrition Coach",
+        "location": "Dallas",
+        "current_members": "15 clients",
+        "monthly_budget": "$250/month",
+        "problem": "Need more coaching clients",
+        "must_include": [
+            "lead",
+            ["Facebook", "meta"],
+            "offer",
+            ["follow up", "follow-up", "nurture", "nurturing"],
+            ["local", "local seo", "google business profile", "google business", "google maps", "nearby", "local search"]
+        ]
+    },
+    {
+        "name": "Physical Therapist Needs Patients",
+        "business_type": "Physical Therapist",
+        "location": "Dallas",
+        "current_members": "10 patients",
+        "monthly_budget": "$100/month",
+        "problem": "Need more PT Patients",
+        "must_include": [
+            "lead",
+            "offer",
+            ["follow up", "follow-up", "nurture", "nurturing"],
+            ["local", "local seo", "google business profile", "google business", "google maps", "nearby", "local search"]
+        ]
+    },
+    {
+        "name": "Stretch studio needs clients",
+        "business_type": "Stretch Studio",
+        "location": "Dallas",
+        "current_members": "25 clients",
+        "monthly_budget": "$350/month",
+        "problem": "Need more appointment bookings",
+        "must_include": [
+            "lead",
+            "offer",
+            ["follow up", "follow-up", "nurture", "nurturing"],
+            ["local", "local seo", "google business profile", "google business", "google maps", "nearby", "local search"],
+            "Google Business Profile"
+        ]
+    },
+    {
+        "name": "Bootcamp gym needs reviews",
+        "business_type": "Bootcamp Gym",
+        "location": "Lewisville",
+        "current_members": "75",
+        "monthly_budget": "$300/month",
+        "problem": "Need more Google reviews",
+        "must_include": [
+            "Google Business Profile",
+            "review",
+            "member",
+            ["follow up", "follow-up", "nurture", "nurturing"],
+            ["local", "local seo", "google business profile", "google business", "google maps", "nearby", "local search"]
+        ]
+    },
+    {
+        "name": "Online fitness coach low conversions",
+        "business_type": "Online Fitness Coach",
+        "location": "Remote",
+        "current_members": "20 clients",
+        "monthly_budget": "$500/month",
+        "problem": "Lots of leads but few sales",
+        "must_include": [
+            "offer",
+            ["follow up", "follow-up", "nurture", "nurturing"],
+            ["lead magnet", "free guide", "assessment"],
+            "lead",
+            "conversion"
+        ]
+    },
+    {
+        "name": "Sports performance facility needs engagement",
+        "business_type": "Sports Performance Facility",
+        "location": "Plano",
+        "current_members": "100 athletes",
+        "monthly_budget": "$700/month",
+        "problem": "Low engagement and referrals",
+        "must_include": [
+            "community",
+            "referral",
+            "retention",
+            "goal",
+            ["check-in", "check-ins"]
+        ]
+    },
+    {
+        "name": "Nutrition coach no lead capture",
+        "business_type": "Nutrition Coach",
+        "location": "Denton",
+        "current_members": "12 clients",
+        "monthly_budget": "$150/month",
+        "problem": "Website visitors are not becoming leads",
+        "must_include": [
+            ["lead magnet", "free guide", "assessment"],
+            "lead",
+            "offer",
+            ["follow up", "follow-up", "nurture", "nurturing"],
+            "conversion"
         ]
     }
 ]
@@ -136,6 +270,10 @@ for test_case in test_cases:
         print("Missing:")
         for item in missing:
             print(f"- {item}")
+
+        print("\nResponse:")
+        print(answer)
+
     else:
         print("All required items included.")
 

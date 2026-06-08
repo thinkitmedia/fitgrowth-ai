@@ -138,3 +138,15 @@ Current automated evaluation score:
 **15/15 (100%)**
 
 ![FitGrowth AI Eval Results](assets/eval-results.png)
+
+## Evaluation Results Extended
+
+The project includes an automated evaluation framework that tests recommendations across multiple fitness business scenarios.
+
+Current Results:
+
+- 12 business scenarios tested
+- 59 evaluation checks
+- 100% passing score
+
+![Evaluation Results](assets/more-eval-results.png)
